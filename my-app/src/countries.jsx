@@ -4,6 +4,7 @@ import "./Cityselector.css";
 const Card = ({ name, flag, abbr }) => {
   return (
     <div
+      className="countryCard"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -16,7 +17,7 @@ const Card = ({ name, flag, abbr }) => {
         borderRadius: "4px",
         textAlign: "center",
         padding: "10px",
-        className: "countryCard",
+        
       }}
     >
       <img
